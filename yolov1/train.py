@@ -21,7 +21,7 @@ from utils.train_utils import train_one_epoch
 
 def main():
     # path to VOC dataset
-    root_img_dir = "../VOCdevkit"
+    root_img_dir = "./VOCdevkit"
     train_dataset = PascalVOCDataset(
         root_dir=root_img_dir,
         image_set='trainval',
